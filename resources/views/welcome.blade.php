@@ -7,7 +7,8 @@
                 <!-- Left Section -->
                 <div class="flex flex-col justify-center items-center space-y-6">
                     <div class="relative w-32 h-32 md:w-40 md:h-40 flex justify-center items-center">
-                        <svg class="absolute inset-0" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="absolute inset-0n animate-spin-slow" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
                             <!-- Circular path -->
                             <path id="circlePath" fill="none" d="M50,10 a40,40 0 1,1 0,80 a40,40 0 1,1 0,-80" />
                             <!-- Text along the path -->
@@ -18,50 +19,59 @@
                             </text>
                         </svg>
                         <button class="w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 text-white md:w-8 md:h-8" viewBox="0 0 16 16">
-                                <path d="M11.596 8.697L6.692 11.396A1 1 0 0 1 5 10.6V5.4a1 1 0 0 1 1.692-.802l4.904 2.698a1 1 0 0 1 0 1.798z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="w-6 h-6 text-white md:w-8 md:h-8" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.596 8.697L6.692 11.396A1 1 0 0 1 5 10.6V5.4a1 1 0 0 1 1.692-.802l4.904 2.698a1 1 0 0 1 0 1.798z" />
                             </svg>
                         </button>
                     </div>
                 </div>
                 <!-- Right Section -->
-                <div class="text-white max-w-md flex flex-col md:items-end text-right ml-auto">
+                <div class="text-white max-w-2xl flex flex-col align-center md:items-end text-right ml-auto">
                     <div>
-                        <p class="text-sm uppercase tracking-wide font-medium mb-4">EXPERT TEAM</p>
-                        <h2 class="text-3xl md:text-4xl font-bold leading-tight">
-                           We WORk For
-                        </h2>
-                        <h2>Client Legal Success</h2>
-                        <p class="mt-6 text-base md:text-lg">
-                            Our experienced team offers tailored legal solutions to ensure the success of every case. Partner with us for unparalleled expertise and dedication.
+                        <p class="text-sm uppercase tracking-wide font-semibold mb-4 main-font text-4xl">EXPERT TEAM</p>
+                        <div class="flex gap-4 items-end justify-end mb-2">
+                            <span class="text-4xl md:text-5xl font-bold leading-tight main-font">
+                                We WORk
+                            </span>
+                            <img src="{{ asset('image/image.avif') }}" alt="Arrow" class="w-26 h-10">
+                            <span class="text-4xl md:text-5xl font-bold leading-tight main-font">
+                                For
+                            </span>
+                        </div>
+                        <h2 class="text-3xl md:text-4xl font-bold leading-tight main-font">Client Legal Success</h2>
+                        <p class="mt-6 text-base md:text-lg mb-3">
+                            Our experienced team offers tailored legal solutions to ensure the success of every case.
+                            Partner with us for unparalleled expertise and dedication.
                         </p>
-                        <div class="">
-                            <a
-                              href="#"
-                              class="relative inline-flex items-center justify-center px-6 py-3 text-lg font-bold text-white bg-yellow-500 border-2 border-transparent group hover:bg-[#19202b] transition duration-300"
-                            >
-                              <!-- Gold Border -->
-                              <span
-                                class="absolute inset-0 border-2 border-[#f3c04c] translate-x-2 translate-y-2 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-300"
-                              ></span>
-                          
-                              <!-- Arrow Icon -->
-                              <span class="mr-2 text-xl group-hover:-translate-x-1 transition-transform duration-300">
-                                &larr;
-                              </span>
-                              Get Started
-                            </a>
-                          </div>
+                        <div>
+                            <a href="#" class="relative inline-block">
+                                <span
+                                  class="bg-[#192637] border-2 border-yellow-500 px-6 py-3 relative z-10"
+                                  style="position: relative;">
+                                  Get Started
+                                </span>
+                                <span
+                                  class="bg-yellow-500 border-2 border-yellow-500 px-16 py-5 absolute left-2 z-0 h-2 w-30"
+                                  style="position: absolute;">
+                                  
+                                </span>
+                              </a>
+                              
+                              
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
     <div class="bg-blue-50 py-12">
         <!-- Section Heading -->
         <div class="text-center mb-16">
-            <p class="text-sm uppercase text-blue-700 font-medium tracking-wide">Multidisciplinary Team</p>
-            <h2 class="text-3xl font-bold text-blue-900">
+            <p class="text-sm uppercase text-blue-700 font-medium tracking-wide main-font">Multidisciplinary Team</p>
+            <h2 class="text-3xl font-bold text-blue-900 main-font">
                 We <span class="text-yellow-500">Expertise On</span>
             </h2>
             <p class="mt-4 text-gray-600 text-base max-w-3xl mx-auto">

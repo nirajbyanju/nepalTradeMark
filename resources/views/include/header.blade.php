@@ -1,4 +1,4 @@
-<header id="header-bg" class="text-white fixed top-0 left-0 w-full z-50 border-b border-gray-700 shadow-lg transition-colors duration-200">
+<header id="header-bg" class="text-white fixed top-0 left-0 w-full z-40 border-b border-gray-700 shadow-lg transition-colors duration-200">
   <div class="container mx-auto flex justify-between md:justify-center items-center">
     <!-- Logo Section -->
     <div class="flex items-center space-x-4">
