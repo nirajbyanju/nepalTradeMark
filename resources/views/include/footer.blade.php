@@ -1,35 +1,34 @@
 <footer class="bg-[#1C4980] text-white hidden md:block">
-    <div class="container mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-12">
+    <div class="container mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-12 footerbackground">
         <!-- Logo and Tagline -->
         <div>
-            <a href="#" class="flex items-center gap-4 hover:text-gray-300">
-                <img src="{{ asset('image/logo.png') }}" alt="OpsHub Logo" class="w-24 h-auto">
-                <div>
-                    <h2 class="text-xl font-bold">Nepal Trademark Attorneys</h2>
+            <a href="#" class="flex items-center gap-1 group-hover:text-[#EAB308]">
+                <img src="{{ asset('image/logo.png') }}" alt="OpsHub Logo" class="w-20 h-auto">
+                <div class="mt-8">
+                    <h2 class="text-2xl font-bold">Nepal Trademark Attorneys</h2>
                     <p class="text-white text-sm mt-1">Delivering excellence and trust in every service we provide.</p>
                 </div>
             </a>
         </div>
-
         <!-- Services -->
         <div>
             <h3 class="text-lg font-semibold border-gray-700 pb-2 mb-4">Services</h3>
             <ul class="space-y-3">
-                <li class="flex items-center gap-2">
-                    <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Registration of Trademark</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                    <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Registration of Trademark</a>
                 </li>
-                <li class="flex items-center gap-2">
-                    <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Monitoring of Trademark (Watch)</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                    <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Monitoring of Trademark (Watch)</a>
                 </li>
-                <li class="flex items-center gap-2">
-                    <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Enforcement of Trademark</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                    <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Enforcement of Trademark</a>
                 </li>
-                <li class="flex items-center gap-2">
-                    <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Trademark Renewal</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                    <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Trademark Renewal</a>
                 </li>
             </ul>
         </div>
@@ -38,29 +37,30 @@
         <div>
             <h3 class="text-lg font-semibold border-gray-700 pb-2 mb-4">Our Practice Areas</h3>
             <ul class="space-y-3">
-                <li class="flex items-center gap-2">
-                    <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Intellectual Property</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                    <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Intellectual Property</a>
                 </li>
-                <li class="flex items-center gap-2">
-                    <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Trademark Protection</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                    <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Trademark Protection</a>
                 </li>
-                <li class="flex items-center gap-2">
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
                    <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Patent Protection</a>
+                    <a href="#" class="group-hover:text-[#EAB308]">Patent Protection</a>
                 </li>
-                <li class="flex items-center gap-2">
-                   <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Industrial Design Protection</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                   <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Industrial Design Protection</a>
                 </li>
-                <li class="flex items-center gap-2">
-                   <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">IP Watch</a>
-                </li>
-                <li class="flex items-center gap-2">
-                   <i class="fa-solid fa-circle text-[8px] text-white"></i>
-                    <a href="#" class="hover:text-gray-300">Copyright Protection</a>
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                    <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">IP Watch</a>
+                  </li>
+                  
+                <li class="flex items-center gap-2 group hover:text-[#EAB308]">
+                   <i class="fa-solid fa-circle text-[8px] text-white group-hover:text-[#EAB308]"></i>
+                    <a href="#" class="group-hover:text-[#EAB308]">Copyright Protection</a>
                 </li>
             </ul>
         </div>
@@ -71,7 +71,7 @@
             <ul class="space-y-4">
                 <li class="flex gap-4">
                     <i class="fa-solid fa-location-dot text-white text-lg"></i>
-                    <span>
+                    <span class="hover:text-[#EAB308]">
                         Kathmandu Ward No.30, G.P.O.BOX 20481<br>
                         Near Kotadevi Mandir, Kathmandu, Nepal
                     </span>
@@ -81,8 +81,8 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                     </svg>
                     <div>
-                        <a href="tel:+9779849728134" class="hover:text-gray-300 block">+977-9849728134</a>
-                        <a href="tel:+977015100223" class="hover:text-gray-300 block">+977-01-5100223</a>
+                        <a href="tel:+9779849728134" class="hover:text-[#EAB308] block">+977-9849728134</a>
+                        <a href="tel:+977015100223" class="hover:text-[#EAB308] block">+977-01-5100223</a>
                     </div>
                 </li>
                 <li class="flex gap-4 text-white">
@@ -90,7 +90,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                     </svg>
                     <div>
-                        <a href="mailto:info@nepaltrademark.com" class="hover:text-gray-300 block">info@nepaltrademark.com</a>
+                        <a href="mailto:info@nepaltrademark.com" class="hover:text-[#EAB308] block">info@nepaltrademark.com</a>
                     </div>
                 </li>
             </ul>
@@ -107,7 +107,7 @@
     <div
         class="flex justify-between bg-[#1C4980] fixed bottom-0 left-0 w-full p-3 z-30 border-t border-gray-300">
         <div class="flex flex-col items-center">
-            <a href="{{ url('/') }}" class="flex flex-col items-center text-white hover:text-gray-300">
+            <a href="{{ url('/') }}" class="flex flex-col items-center text-white group-hover:text-[#EAB308]">
                 <div class="server-icon text-xl">
                     <i class="fas fa-home"></i> <!-- FontAwesome Home Icon -->
                 </div>
