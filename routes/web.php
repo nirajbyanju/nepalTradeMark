@@ -19,6 +19,10 @@ Route::get('/about-us', function () {
 Route::get('/contact-us', function () {
     return view('contact-us');
 })->name('contact-us');
+Route::get('/trademark-renewal', function () {
+    return view('trademark-renewal');
+})->name('trademark-renewal');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

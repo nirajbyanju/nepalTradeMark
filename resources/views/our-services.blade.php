@@ -110,91 +110,76 @@
             </p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/search.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/search.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
                 <h3 class="text-lg font-medium main-text-color">Search of availability of trade/Service mark</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-2.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-2.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
-                <h3 class="text-lg font-medium main-text-color">Filing trademark application, prosecution to issuance
-                    registration certificate</h3>
+                <h3 class="text-lg font-medium main-text-color">Filing trademark application, prosecution to issuance registration certificate</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-3.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-3.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
                 <h3 class="text-lg font-medium main-text-color">Filing opposition, revocation of mark</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-4.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-4.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
-                <h3 class="text-lg font-medium main-text-color">Filing counter reply to opposition and official refusal
-                    objection</h3>
+                <h3 class="text-lg font-medium main-text-color">Filing counter reply to opposition and official refusal objection</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-5.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-5.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
-                <h3 class="text-lg font-medium main-text-color">Filing petition against infringement/unauthorized use of TM
-                </h3>
+                <h3 class="text-lg font-medium main-text-color">Filing petition against infringement/unauthorized use of TM</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-6.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-6.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
-                <h3 class="text-lg font-medium main-text-color">Filing counter reply to infringement/unauthorized use of TM
-                </h3>
+                <h3 class="text-lg font-medium main-text-color">Filing counter reply to infringement/unauthorized use of TM</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-7.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-7.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
                 <h3 class="text-lg font-medium main-text-color">Renewal of trade/Service mark</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-8.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-8.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
-                <h3 class="text-lg font-medium main-text-color">Recordals of assignment, licensing, change of name,
-                    address,
-                    merge</h3>
+                <h3 class="text-lg font-medium main-text-color">Recordals of assignment, licensing, change of name, address, merge</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-9.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-9.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
                 <h3 class="text-lg font-medium main-text-color">Obtaining certified copy of registration certificate</h3>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center">
+        
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6 text-center hover:bg-blue-100 hover:shadow-xl transform hover:scale-105 hover:text-blue-600 transition-all duration-300 ease-in-out">
                 <div class="flex justify-center mb-4">
-                    <img src="{{ asset('image/gif/icon-10.png') }}" alt="Search of availability of trade/Service mark"
-                        class="w-14 h-14">
+                    <img src="{{ asset('image/gif/icon-10.png') }}" alt="Search of availability of trade/Service mark" class="w-14 h-14">
                 </div>
                 <h3 class="text-lg font-medium main-text-color">Trademark Watch service</h3>
             </div>
         </div>
+        
     </div>
 @endsection

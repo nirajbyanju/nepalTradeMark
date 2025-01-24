@@ -65,7 +65,7 @@
     }
 
     .animate-spin-slow {
-        animation: spin-slow 9s linear infinite;
+        animation: spin-slow 10s linear infinite;
     }
 
     .whatsapp-widget {
@@ -199,4 +199,17 @@
         box-shadow: 0 0 0px 1000px transparent inset !important;
         -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
     }
+    @keyframes slow-rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .animate-slow-rotate {
+            animation: slow-rotate 5s linear infinite;
+        }
+
 </style>
