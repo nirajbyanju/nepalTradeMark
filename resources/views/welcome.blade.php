@@ -41,18 +41,17 @@
                             Our experienced team offers tailored legal solutions to ensure the success of every case.
                             Partner with us for unparalleled expertise and dedication.
                         </p>
-                        <div>
-                            <a href="#" class="relative inline-block">
-                                <span class="bg-[#192637] border-2 border-yellow-500 px-6 py-3 relative z-10"
-                                    style="position: relative;">
-                                    Get Started
-                                </span>
-                                <span
-                                    class="bg-yellow-500 border-2 border-yellow-500 px-16 py-5 absolute left-2 z-0 h-2 w-30"
-                                    style="position: absolute;">
-                                </span>
-                            </a>
-                        </div>
+                        <button class="relative inline-block font-medium group py-4 px-10 text-lg">
+                            <span
+                              class="absolute inset-0 w-full h-full transition-transform duration-300 ease-out transform translate-x-1 translate-y-1 bg-yellow-500 group-hover:translate-x-0 group-hover:translate-y-0">
+                            </span>
+                            <span
+                              class="absolute inset-0 w-full h-full bg-[#1B2839] border border-yellow-500 {{-- group-hover:bg-yellow-600 --}}">
+                            </span>
+                            <span class="relative text-white main-font text-lg">Get Started</span>
+                          </button>
+                          
+                        
                     </div>
                 </div>
 
@@ -131,7 +130,7 @@
                 <div class="bg-white shadow-lg rounded-lg p-6 text-center">
                     <div class="flex justify-center mb-4 ">
                         <span class="border-[3px] border-gry-500 rounded-md">
-                            <img src="{{ asset('image/icon-3.png') }}" alt="Trademark Renewal" class="w-12 h-12  m-4">
+                            <img src="{{ asset('image/icon-4.png') }}" alt="Trademark Renewal" class="w-12 h-12  m-4">
                         </span>
                     </div>
                     <h3 class="text-xl font-semibold main-text-color mb-2 main-font">Trademark Renewal</h3>

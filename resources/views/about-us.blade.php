@@ -2,12 +2,27 @@
 @section('title', 'About Us')
 @section('content')
     <div>
-        <div class="relative bg-cover bg-center h-72" style="background-image: url('{{ asset('image/slider.avif') }}');">
-            <div class="relative flex flex-col items-center justify-center pt-10 h-full text-center text-white">
-                <h1 class="text-3xl font-bold">About Us</h1>
-                <p class="text-sm mt-2">Home / About Us</p>
+        <section class="relative">
+            <div class="relative flex justify-center overflow-hidden">
+                <img src="{{ asset('image/our-history.jpg') }}" alt="About Banner"
+                    class="object-cover object-[50%_20%] w-full h-[30vh]">
+                <div class="absolute inset-0 bg-gradient-to-b from-[#0A1D35] to-[rgba(10,29,53,0.7)]"></div>
+                <div class="absolute inset-0 flex justify-center items-center text-white px-4">
+                    <div class="banner-header-content text-center">
+                        <h1 class="page-title text-4xl lg:text-4xl font-normal font-serif">
+                            About Us
+                        </h1>
+                        <ul class="breadcrumb fadeInUp animated flex justify-center gap-3 mt-4 text-base lg:text-lg">
+                            <li class="crumb cl"><a class="color-white hover:text-yellow-400" href="home.html">Home</a></li>
+                            <li class="crumb"><span>/</span></li>
+                            <li class="crumb"><a class="color-white hover:text-yellow-400"
+                                    href="javascript:void(0)">Pages</a></li>
+                            <li class="crumb current color-yellow">About Us</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
         <div class="flex flex-col md:flex-row items-center justify-center p-8 bg-white">
             <div>
                 <img src="{{ asset('image/about-us.avif') }}" alt="About Us"
