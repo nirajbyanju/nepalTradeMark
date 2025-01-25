@@ -4,38 +4,42 @@
     <div>
         <div class="relative bg-cover bg-center h-screen" style="background-image: url('{{ asset('image/slider1.avif') }}');">
             <div class="relative container mx-auto grid grid-cols-1 md:grid-cols-2 items-center h-full px-8 gap-8">
-                <div class="flex flex-col justify-center items-center space-y-6">
+                <div class="hidden md:block flex flex-col justify-center items-center space-y-6">
                     <div class="relative w-32 h-32 md:w-40 md:h-40 flex justify-center items-center">
                         <a class="cursor-pointer" onclick="openModal()">
-                        <svg class="absolute inset-0 animate-spin-slow" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <path id="circlePath" fill="none" d="M50,10 a40,40 0 1,1 0,80 a40,40 0 1,1 0,-80" />
-                            <text fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">
-                                <textPath href="#circlePath" startOffset="50%">
-                                    Nepal Trademark Attorney • Since 2007 •
-                                </textPath>
-                            </text>
-                        </svg>
-                        <button
-                            class="w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 text-white md:w-8 md:h-8"
-                                viewBox="0 0 16 16">
-                                <path
-                                    d="M11.596 8.697L6.692 11.396A1 1 0 0 1 5 10.6V5.4a1 1 0 0 1 1.692-.802l4.904 2.698a1 1 0 0 1 0 1.798z" />
+                            <svg class="absolute inset-0 animate-spin-slow" viewBox="0 0 100 100"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path id="circlePath" fill="none" d="M50,10 a40,40 0 1,1 0,80 a40,40 0 1,1 0,-80" />
+                                <text fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">
+                                    <textPath href="#circlePath" startOffset="50%">
+                                        Nepal Trademark Attorney • Since 2007 •
+                                    </textPath>
+                                </text>
                             </svg>
-                        </button>
-                    </a>
+                            <button class="w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    class="w-6 h-6 text-white md:w-8 md:h-8" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.596 8.697L6.692 11.396A1 1 0 0 1 5 10.6V5.4a1 1 0 0 1 1.692-.802l4.904 2.698a1 1 0 0 1 0 1.798z" />
+                                </svg>
+                            </button>
+                        </a>
                     </div>
-                
+
                     <!-- Modal -->
-                    <div id="youtubeModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+                    <div id="youtubeModal"
+                        class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
                         <div class="bg-white rounded-lg shadow-lg overflow-hidden w-11/12 md:w-3/4 max-w-2xl">
                             <div class="relative">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/-7NBMy4NrFE?si=395EwpNdd6gFwb0i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <button
-                                class="absolute top-2 right-2 text-gray-700 hover:text-gray-900"
-                                onclick="closeModal()">
-                                ✕
-                            </button>
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/-7NBMy4NrFE?si=395EwpNdd6gFwb0i"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <button class="absolute top-2 right-2 text-gray-700 hover:text-gray-900"
+                                    onclick="closeModal()">
+                                    ✕
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -64,7 +68,7 @@
                             <span
                                 class="absolute inset-0 w-full h-full bg-[#1B2839] border border-yellow-500 {{-- group-hover:bg-yellow-600 --}}">
                             </span>
-                            <a href="{{url('/contact-us')}}" class="relative text-white main-font text-lg">Get Started</a>
+                            <a href="{{ url('/contact-us') }}" class="relative text-white main-font text-lg">Get Started</a>
                         </button>
 
 
@@ -108,7 +112,7 @@
                         Legal advice is the giving of a Professional or formal opinion regarding the substance or procedure
                         of the law in relation to a particular factual situation.
                     </p>
-                    <a href="{{route('trademark-renewal')}}"
+                    <a href="{{ route('trademark-renewal') }}"
                         class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 group-hover:text-white group-hover:border-white group-hover:bg-[#1C4980]">
                         Read More
                     </a>
@@ -252,12 +256,12 @@
             modal.classList.remove('hidden');
             video.src = "https://youtu.be/HAcLoqZO-Z0?si=3XOPtpEC_E33iuZ4?autoplay=1";
         }
-    
+
         function closeModal() {
             const modal = document.getElementById('youtubeModal');
             const video = document.getElementById('youtubeVideo');
             modal.classList.add('hidden');
-            video.src = ""; 
+            video.src = "";
         }
     </script>
 @endsection

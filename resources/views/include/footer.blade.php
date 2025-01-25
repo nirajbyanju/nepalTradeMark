@@ -165,7 +165,7 @@
 
 
 
-<footer class="bg-[#1C4980] text-white"
+<footer class="bg-[#1C4980] text-white hidden md:block"
     style="background: radial-gradient(50% 50.00% at 50% 50.00%, #0A1D35 0%, rgba(10, 29, 53, 0.80) 0.01%, #0A1D35 100%), url('{{ asset('image/footer-back-v3.jpg') }}');
         background-repeat: no-repeat;
         background-position: center center;
