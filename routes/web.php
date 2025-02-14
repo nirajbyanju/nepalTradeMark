@@ -23,6 +23,19 @@ Route::get('/trademark-renewal', function () {
     return view('trademark-renewal');
 })->name('trademark-renewal');
 
+Route::get('/enforcement', function () {
+    return view('page.enforcement');
+});
+Route::get('/monitoring', function () {
+    return view('page.monitoring');
+});
+Route::get('/registrating', function () {
+    return view('page.registration');
+});
+Route::get('/renewal', function () {
+    return view('page.renewal');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -10,14 +10,12 @@
                 <div class="absolute inset-0 flex justify-center items-center text-white px-4">
                     <div class="banner-header-content text-center">
                         <h1 class="page-title text-4xl lg:text-4xl font-normal font-serif">
-                            About Us
+                            Our Services
                         </h1>
                         <ul class="breadcrumb fadeInUp animated flex justify-center gap-3 mt-4 text-base lg:text-lg">
                             <li class="crumb cl"><a class="color-white hover:text-yellow-400" href="home.html">Home</a></li>
                             <li class="crumb"><span>/</span></li>
-                            <li class="crumb"><a class="color-white hover:text-yellow-400"
-                                    href="javascript:void(0)">Pages</a></li>
-                            <li class="crumb current color-yellow">About Us</li>
+                            <li class="crumb current color-yellow">Our Services</li>
                         </ul>
                     </div>
                 </div>
@@ -40,8 +38,8 @@
                         of
                         the law in relation to a particular factual situation.
                     </p>
-                    <a href="#"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg">
+                    <a href="{{ url('/registrating') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>
@@ -57,8 +55,8 @@
                         of
                         the law in relation to a particular factual situation.
                     </p>
-                    <a href="#"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg">
+                    <a href="{{ url('monitoring') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>
@@ -75,8 +73,8 @@
                         of
                         the law in relation to a particular factual situation.
                     </p>
-                    <a href="#"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg">
+                    <a href="{{ url('enforcement') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>
@@ -92,8 +90,8 @@
                         of
                         the law in relation to a particular factual situation.
                     </p>
-                    <a href="#"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg">
+                    <a href="{{ url('renewal') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>

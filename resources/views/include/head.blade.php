@@ -43,6 +43,9 @@
     }
 
     .our-vision {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         background-image: url('{{ asset('image/our-vision.avif') }}');
     }
 

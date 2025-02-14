@@ -50,8 +50,8 @@
             <h1>New Contact Request</h1>
         </div>
         <div class="email-body">
-            <h2>Hello, Nepal Trademark Attorneys,</h2>
-            <p>Nepal Trademark Attorneys get a new contact request from Client. Please find the details below:</p>
+            <h2>Hello, Nepal Trademark Attorneys Inc.,</h2>
+            <p>Nepal Trademark Attorneys Inc. get a new contact request from Client. Please find the details below:</p>
             <ul>
                 <li><strong>Name:</strong> {{ $data['name'] }}</li>
                 <li><strong>Email:</strong> {{ $data['email'] }}</li>

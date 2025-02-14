@@ -42,11 +42,7 @@
     </div>
     
     
-    <div class="whatsapp-widget">
-        <a href="https://api.whatsapp.com/send/?phone=9843906039&text=Hello+there%21+I+have+a+query.&type=phone_number&app_absent=0">
-            <img src="{{ asset('image/whatapp.avif') }}" alt="WhatsApp Icon">
-        </a>
-    </div>
+
     @include('include.header')
     @include('include.alert')
     <div class="row">

@@ -5,25 +5,28 @@
         <div class="relative bg-cover bg-center h-screen" style="background-image: url('{{ asset('image/slider1.avif') }}');">
             <div class="relative container mx-auto grid grid-cols-1 md:grid-cols-2 items-center h-full px-8 gap-8">
                 <div class="hidden md:block flex flex-col justify-center items-center space-y-6">
-                    <div class="relative w-32 h-32 md:w-40 md:h-40 flex justify-center items-center">
-                        <a class="cursor-pointer" onclick="openModal()">
-                            <svg class="absolute inset-0 animate-spin-slow" viewBox="0 0 100 100"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path id="circlePath" fill="none" d="M50,10 a40,40 0 1,1 0,80 a40,40 0 1,1 0,-80" />
-                                <text fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">
-                                    <textPath href="#circlePath" startOffset="50%">
-                                        Nepal Trademark Attorney • Since 2007 •
-                                    </textPath>
-                                </text>
-                            </svg>
-                            <button class="w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                    class="w-6 h-6 text-white md:w-8 md:h-8" viewBox="0 0 16 16">
-                                    <path
-                                        d="M11.596 8.697L6.692 11.396A1 1 0 0 1 5 10.6V5.4a1 1 0 0 1 1.692-.802l4.904 2.698a1 1 0 0 1 0 1.798z" />
+                    <div class="hidden md:flex flex-col justify-center items-center space-y-6">
+                        <div class="relative w-32 h-32 md:w-40 md:h-40 flex justify-center items-center">
+                            <a class="cursor-pointer group" onclick="openModal()">
+                                <svg class="absolute inset-0 animate-spin-slow text-gray-200" viewBox="0 0 100 100"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path id="circlePath" fill="none" d="M50,10 a40,40 0 1,1 0,80 a40,40 0 1,1 0,-80" />
+                                    <text fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">
+                                        <textPath href="#circlePath" startOffset="50%">
+                                            Nepal Trademark Attorneys Inc. • Since 2007 •
+                                        </textPath>
+                                    </text>
                                 </svg>
-                            </button>
-                        </a>
+                                <button
+                                    class="w-16 h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center shadow-lg transition">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 h-8 text-white"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.596 8.697L6.692 11.396A1 1 0 0 1 5 10.6V5.4a1 1 0 0 1 1.692-.802l4.904 2.698a1 1 0 0 1 0 1.798z" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Modal -->
@@ -46,30 +49,30 @@
                 </div>
                 <div class="text-white max-w-2xl flex flex-col align-center md:items-end text-right ml-auto">
                     <div>
-                        <p class="text-sm uppercase tracking-wide font-semibold mb-4 main-font text-4xl">EXPERT TEAM</p>
+                        <p class=" uppercase tracking-wide font-semibold mb-4 main-font text-2xl">EXPERT TEAM</p>
                         <div class="flex gap-4 items-end justify-end mb-2">
-                            <span class="text-4xl md:text-5xl font-bold leading-tight main-font">
+                            <span class="text-4xl md:text-6xl font-bold leading-tight main-font">
                                 We WORk
-                            </span>
-                            <img src="{{ asset('image/image.avif') }}" alt="Arrow" class="w-26 h-10">
-                            <span class="text-4xl md:text-5xl font-bold leading-tight main-font">
-                                For
+                                For Client
                             </span>
                         </div>
-                        <h2 class="text-3xl md:text-4xl font-bold leading-tight main-font">Client Legal Success</h2>
+                        <h2 class="text-4xl md:text-6xl font-bold leading-tight main-font">Legal Success</h2>
                         <p class="mt-6 text-base md:text-lg mb-3 second-font">
                             Our experienced team offers tailored legal solutions to ensure the success of every case.
                             Partner with us for unparalleled expertise and dedication.
                         </p>
-                        <button class="relative inline-block font-medium group py-4 px-10 text-lg">
-                            <span
-                                class="absolute inset-0 w-full h-full transition-transform duration-300 ease-out transform translate-x-1 translate-y-1 bg-yellow-500 group-hover:translate-x-0 group-hover:translate-y-0">
-                            </span>
-                            <span
-                                class="absolute inset-0 w-full h-full bg-[#1B2839] border border-yellow-500 {{-- group-hover:bg-yellow-600 --}}">
-                            </span>
-                            <a href="{{ url('/contact-us') }}" class="relative text-white main-font text-lg">Get Started</a>
-                        </button>
+                        <div class="mt-16">
+                            <button class="relative inline-block font-medium  group py-4 px-10 text-lg">
+                                <span
+                                    class="absolute inset-0 w-full h-full transition-transform duration-300 ease-out transform translate-x-1 translate-y-1 bg-yellow-500 group-hover:translate-x-0 group-hover:translate-y-0">
+                                </span>
+                                <span
+                                    class="absolute inset-0 w-full h-full bg-[#1B2839] border border-yellow-500 group-hover:bg-[#1C4980] group-hover:border-0">
+                                </span>
+                                <a href="{{ url('/contact-us') }}" class="relative text-white main-font text-lg">Get
+                                    Started</a>
+                            </button>
+                        </div>
 
 
                     </div>
@@ -94,95 +97,75 @@
             </div>
             <div
                 class="container background-images py-24 mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div
-                    class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105 hover:shadow-xl">
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform">
                     <div class="flex justify-center mb-4">
-                        <span
-                            class="border-[3px] border-gray-500 rounded-md transition-all duration-300 group-hover:border-white">
-                            <img src="{{ asset('image/icon-1.png') }}" alt="Trademark Renewal"
-                                class="w-12 h-12 m-4 0 group-hover:animate-slow-rotate group-hover:brightness-0 group-hover:invert">
+                        <span class="border-[3px] border-gray-500 rounded-md transition-all duration-300 ">
+                            <img src="{{ asset('image/icon-1.png') }}" alt="Trademark Renewal" class="w-12 h-12 m-4 0 ">
                         </span>
                     </div>
-                    <h3
-                        class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300  group-hover:text-white hover:text-[#1C4980]">
+                    <h3 class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300 ">
                         Registration of Trademark
                     </h3>
-                    <p
-                        class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300 group-hover:text-white">
+                    <p class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300">
                         Legal advice is the giving of a Professional or formal opinion regarding the substance or procedure
                         of the law in relation to a particular factual situation.
                     </p>
-                    <a href="{{ route('trademark-renewal') }}"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 group-hover:text-white group-hover:border-white group-hover:bg-[#1C4980]">
+                    <a href="{{ url('/registrating') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>
-                <div
-                    class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105 hover:shadow-xl">
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform">
                     <div class="flex justify-center mb-4">
-                        <span
-                            class="border-[3px] border-gray-500 rounded-md transition-all duration-300 group-hover:border-white">
-                            <img src="{{ asset('image/icon-2.png') }}" alt="Trademark Renewal"
-                                class="w-12 h-12 m-4 0 group-hover:animate-slow-rotate group-hover:brightness-0 group-hover:invert">
+                        <span class="border-[3px] border-gray-500 rounded-md transition-all duration-300">
+                            <img src="{{ asset('image/icon-2.png') }}" alt="Trademark Renewal" class="w-12 h-12 m-4 0 ">
                         </span>
                     </div>
-                    <h3
-                        class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300  group-hover:text-white hover:text-[#1C4980]">
+                    <h3 class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300 ">
                         Monitoring of Trademark
                     </h3>
-                    <p
-                        class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300 group-hover:text-white">
+                    <p class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300 ">
                         Legal advice is the giving of a Professional or formal opinion regarding the substance or procedure
                         of the law in relation to a particular factual situation.
                     </p>
-                    <a href="{{-- {{route('Trademark-renewal')}} --}}"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 group-hover:text-white group-hover:border-white group-hover:bg-[#1C4980]">
+                    <a href="{{ url('monitoring') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>
-                <div
-                    class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105 hover:shadow-xl">
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform ">
                     <div class="flex justify-center mb-4">
-                        <span
-                            class="border-[3px] border-gray-500 rounded-md transition-all duration-300 group-hover:border-white">
-                            <img src="{{ asset('image/icon-3.png') }}" alt="Trademark Renewal"
-                                class="w-12 h-12 m-4 0 group-hover:animate-slow-rotate group-hover:brightness-0 group-hover:invert">
+                        <span class="border-[3px] border-gray-500 rounded-md transition-all duration-300 ">
+                            <img src="{{ asset('image/icon-3.png') }}" alt="Trademark Renewal" class="w-12 h-12 m-4 0">
                         </span>
                     </div>
-                    <h3
-                        class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300  group-hover:text-white hover:text-[#1C4980]">
+                    <h3 class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300  ">
                         Enforcement of Trademark
                     </h3>
-                    <p
-                        class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300 group-hover:text-white">
+                    <p class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300 ">
                         Legal advice is the giving of a Professional or formal opinion regarding the substance or procedure
                         of the law in relation to a particular factual situation.
                     </p>
-                    <a href="{{-- {{route('Trademark-renewal')}} --}}"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 group-hover:text-white group-hover:border-white group-hover:bg-[#1C4980]">
+                    <a href="{{ url('enforcement') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>
-                <div
-                    class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105 hover:shadow-xl">
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center group transition-all duration-300 transform ">
                     <div class="flex justify-center mb-4">
-                        <span
-                            class="border-[3px] border-gray-500 rounded-md transition-all duration-300 group-hover:border-white">
-                            <img src="{{ asset('image/icon-4.png') }}" alt="Trademark Renewal"
-                                class="w-12 h-12 m-4 0 group-hover:animate-slow-rotate group-hover:brightness-0 group-hover:invert">
+                        <span class="border-[3px] border-gray-500 rounded-md transition-all duration-300 ">
+                            <img src="{{ asset('image/icon-4.png') }}" alt="Trademark Renewal" class="w-12 h-12 m-4 0 ">
                         </span>
                     </div>
-                    <h3
-                        class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300  group-hover:text-white hover:text-[#1C4980]">
+                    <h3 class="text-xl font-semibold main-text-color mb-2 main-font transition-colors duration-300">
                         Trademark Renewal
                     </h3>
-                    <p
-                        class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300 group-hover:text-white">
+                    <p class="mt-4 main-text-color text-sm mx-auto second-font mb-3 transition-colors duration-300">
                         Legal advice is the giving of a Professional or formal opinion regarding the substance or procedure
                         of the law in relation to a particular factual situation.
                     </p>
-                    <a href="{{-- {{route('Trademark-renewal')}} --}}"
-                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 group-hover:text-white group-hover:border-white group-hover:bg-[#1C4980]">
+                    <a href="{{ url('renewal') }}"
+                        class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>
                 </div>
@@ -191,7 +174,7 @@
     </div>
     <div class="bg-blue-50 py-12">
         <div class="container mx-auto mt-12 px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div class="flex justify-center lg:justify-end">
+            <div class="flex justify-center lg:justify-end hidden md:block">
                 <img src="{{ asset('image/image-1.avif') }}" alt="Lady Justice image-animation"
                     class="max-w-sm object-contain" />
             </div>
