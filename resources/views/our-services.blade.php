@@ -38,7 +38,7 @@
                         of
                         the law in relation to a particular factual situation.
                     </p>
-                    <a href="{{ url('/registrating') }}"
+                    <a href="{{ url('/registration') }}"
                         class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gry-500 border-[3px] rounded-lg hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>

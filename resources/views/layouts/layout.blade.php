@@ -9,14 +9,13 @@
     @yield('meta')
     <title> @yield('title')</title>
     @include('include.head')
-    <link rel="icon" href="{{ asset('opcn/images/opsh1.png') }}" type="image/x-icon" sizes="16x16">
+    <link rel="icon" href="{{ asset('image/logo-2.png') }}" type="image/x-icon" sizes="16x16">
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Replace "your-kit-code" with your unique code from Font Awesome -->
     <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="icon" type="image/x-icon" href="{{ asset('image/logo-2.png') }}">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FD7WLS0DC6"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -31,13 +30,17 @@
 </head>
 
 <body>
-    <div id="page-loader" class="fixed inset-0 flex items-center justify-center bg-[#fff] z-[9999] w-full h-full">
-        <div class="flex justify-center items-center">
-            <div class="relative inline-flex">
-                <div class="w-8 h-8 bg-blue-500 rounded-full"></div>
-                <div class="w-8 h-8 bg-blue-500 rounded-full absolute top-0 left-0 animate-ping"></div>
-                <div class="w-8 h-8 bg-blue-500 rounded-full absolute top-0 left-0 animate-pulse"></div>
+    <div id="page-loader" class="fixed inset-0 flex items-center justify-center bg-white z-[9999] w-full h-full">
+        <div class="flex flex-col items-center justify-center space-y-4">
+            <!-- Animated Spinner -->
+            <div class="relative w-16 h-16">
+                <div class="w-full h-full border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
             </div>
+    
+            <!-- Loading Text -->
+            <p class="text-lg font-semibold text-gray-700 animate-pulse">
+                Loading...
+            </p>
         </div>
     </div>
     

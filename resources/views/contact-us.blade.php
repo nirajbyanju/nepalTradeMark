@@ -22,11 +22,11 @@
             </div>
         </section>
 
-        <div class="max-w-7xl mx-auto p-12">
+        {{-- <div class="max-w-7xl mx-auto p-12">
             <div class="flex flex-col md:flex-row items-start justify-between gap-12">
                 <!-- Left Section -->
                 <div class="w-full md:w-1/2">
-                    <h2 class="text-4xl font-bold mb-6 main-font main-text-color">Nepal Trademark Attorneys</h2>
+                    <h2 class="text-4xl font-bold mb-6 main-font main-text-color">Nepal Trademark Attorneys Inc.</h2>
                     <div class="flex items-center gap-2 mb-8">
                         <img src="{{ asset('image/shape.png') }}" alt="Contact Us" class="shape-image w-100">
                     </div>
@@ -58,7 +58,7 @@
                             <img src="{{ asset('image/icons-3.png') }}" alt="Contact Us" class="w-14 h-14">
                             <a class="text-xl text-[#45566C] block hover:text-yellow-500" href="https://www.google.com/maps/dir//%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A1%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95+%E0%A4%B5%E0%A4%95%E0%A5%80%E0%A4%B2%E0%A4%B9%E0%A4%B0%E0%A5%81+%E0%A4%87%E0%A4%82%E0%A4%95+M8FW%2BXQ4+Surya+Kot+Marg+Kathmandu+44600/@27.6748969,85.3469483,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x39eb19f1a61bab37:0x9ed8dae913f6c9d1"
                                 target="_blank" rel="noopener noreferrer">
-                                Kathmandu Ward No. 30, G.P.O.BOX 20481<br>
+                                Kathmandu Ward No. 30<br>
                                 Near Kotadevi Mandir, Kathmandu, Nepal
                             </a>
                         </div>
@@ -155,6 +155,150 @@
                     
                         <!-- Submit Button -->
                         <button type="submit" class="w-full bg-[#1C4980] text-white py-4 px-6 text-lg rounded-md hover:bg-yellow-500 transition">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div> --}}
+        <div class="max-w-7xl mx-auto p-12 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl shadow-lg">
+            <div class="flex flex-col md:flex-row items-start justify-between gap-12">
+                <!-- Left Section -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-5xl font-bold mb-8 main-text-color font-sans">Nepal Trademark Attorneys Inc.</h2>
+                    <div class="flex items-center gap-2 mb-8">
+                        <img src="{{ asset('image/shape.png') }}" alt="Contact Us" class="shape-image w-100 ">
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                        Lawyers are involved in many of the largest and most complex transactions in the region.
+                        Renowned for the quality of work of the lawyers, our team provides the best legal advice.
+                    </p>
+                    <div class="space-y-6 text-gray-700">
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center">
+                                <img src="{{ asset('image/icons-1.png') }}" alt="Phone" class="w-8 h-8">
+                            </div>
+                            <div>
+                                <a href="tel:+97701-5100223" class="text-xl text-gray-900 hover:text-blue-600 transition-colors">
+                                    +977-01-5100223
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center">
+                                <img src="{{ asset('image/icons-2.png') }}" alt="Email" class="w-8 h-8">
+                            </div>
+                            <div>
+                                <a href="mailto:info@nepaltrademark.com" class="text-xl text-gray-900 block hover:text-blue-600 transition-colors">
+                                    info@nepaltrademark.com
+                                </a>
+                                <a href="mailto:tm@nepaltrademark.com" class="text-xl text-gray-900 block hover:text-blue-600 transition-colors">
+                                    tm@nepaltrademark.com
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center">
+                                <img src="{{ asset('image/icons-3.png') }}" alt="Location" class="w-8 h-8">
+                            </div>
+                            <a class="text-xl text-gray-900 block hover:text-blue-600 transition-colors" href="https://www.google.com/maps/dir//%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A1%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95+%E0%A4%B5%E0%A4%95%E0%A5%80%E0%A4%B2%E0%A4%B9%E0%A4%B0%E0%A5%81+%E0%A4%87%E0%A4%82%E0%A4%95+M8FW%2BXQ4+Surya+Kot+Marg+Kathmandu+44600/@27.6748969,85.3469483,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x39eb19f1a61bab37:0x9ed8dae913f6c9d1"
+                                target="_blank" rel="noopener noreferrer">
+                                Kathmandu Ward No. 30<br>
+                                Near Kotadevi Mandir, Kathmandu, Nepal
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Right Section -->
+                <div class="w-full md:w-1/2 bg-white p-8 rounded-xl shadow-lg">
+                    <h2 class="text-5xl font-bold mb-8  font-sans main-text-color">Have Any Questions?</h2>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                        With extensive experience, we advise top national and international companies.
+                    </p>
+                    <form class="space-y-6" method="POST" action="{{ route('mail-contact') }}">
+                        @csrf
+                        <!-- Full Name -->
+                        <div class="relative z-0 w-full group">
+                            <input 
+                                type="text" 
+                                name="name" 
+                                id="input-full-name" 
+                                class="block py-3 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" 
+                                placeholder=" " 
+                                required />
+                            <label 
+                                for="input-full-name" 
+                                class="absolute text-lg text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                Full Name <span class="text-red-500">*</span>
+                            </label>
+                        </div>
+        
+                        <!-- Email -->
+                        <div class="relative z-0 w-full group">
+                            <input 
+                                type="email" 
+                                name="email" 
+                                id="input-email" 
+                                class="block py-3 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" 
+                                placeholder=" " 
+                                required />
+                            <label 
+                                for="input-email" 
+                                class="absolute text-lg text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                Email <span class="text-red-500">*</span>
+                            </label>
+                        </div>
+        
+                        <!-- Company Name -->
+                        <div class="relative z-0 w-full group">
+                            <input 
+                                type="text" 
+                                name="company_name" 
+                                id="input-company-name" 
+                                class="block py-3 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" 
+                                placeholder=" " 
+                                required />
+                            <label 
+                                for="input-company-name" 
+                                class="absolute text-lg text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                Company Name <span class="text-red-500">*</span>
+                            </label>
+                        </div>
+        
+                        <!-- Phone Number -->
+                        <div class="relative z-0 w-full group">
+                            <input 
+                                type="text" 
+                                name="phone_number" 
+                                id="input-phone-number" 
+                                class="block py-3 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" 
+                                placeholder=" " 
+                                required />
+                            <label 
+                                for="input-phone-number" 
+                                class="absolute text-lg text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                Phone Number <span class="text-red-500">*</span>
+                            </label>
+                        </div>
+        
+                        <!-- Message -->
+                        <div class="relative z-0 w-full group">
+                            <textarea 
+                                name="message" 
+                                id="input-message" 
+                                class="block py-3 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" 
+                                placeholder=" " 
+                                required></textarea>
+                            <label 
+                                for="input-message" 
+                                class="absolute text-lg text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                Message <span class="text-red-500">*</span>
+                            </label>
+                        </div>
+        
+                        <!-- Submit Button -->
+                        <button type="submit" class="w-full bg-blue-600 text-white py-3 px-6 text-lg rounded-md hover:bg-blue-700 transition-colors">
                             Submit
                         </button>
                     </form>

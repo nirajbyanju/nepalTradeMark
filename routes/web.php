@@ -29,7 +29,7 @@ Route::get('/enforcement', function () {
 Route::get('/monitoring', function () {
     return view('page.monitoring');
 });
-Route::get('/registrating', function () {
+Route::get('/registration', function () {
     return view('page.registration');
 });
 Route::get('/renewal', function () {

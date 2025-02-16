@@ -110,7 +110,7 @@
                         Legal advice is the giving of a Professional or formal opinion regarding the substance or procedure
                         of the law in relation to a particular factual situation.
                     </p>
-                    <a href="{{ url('/registrating') }}"
+                    <a href="{{ url('/registration') }}"
                         class="inline-block px-8 py-2 text-sm font-medium text-[#1C4980] border-gray-500 border-[3px] rounded-lg transition-all duration-300 hover:text-white hover:border-white hover:bg-[#1C4980]">
                         Read More
                     </a>

@@ -3,7 +3,7 @@
         <div class="flex flex-col items-center">
             <a href="{{ url('/') }}" class="flex flex-col items-center text-white group-hover:text-[#EAB308]">
                 <div class="server-icon text-xl">
-                    <i class="fas fa-home"></i> 
+                    <i class="fas fa-home"></i>
                 </div>
                 <span class="font-semibold text-xs">
                     Home
@@ -66,7 +66,8 @@
             <div class="md:col-span-3">
                 <div class="w-full">
                     <a href="#" class="flex items-center gap-1 group-hover:text-[#EAB308]">
-                        <img src="{{ asset('image/logo.png') }}" alt="Nepal Trademark Attorneys Inc." class="w-20 h-auto">
+                        <img src="{{ asset('image/logo.png') }}" alt="Nepal Trademark Attorneys Inc."
+                            class="w-20 h-auto">
                         <div>
                             <h2 class="text-xl font-bold main-font">Nepal Trademark Attorneys Inc.</h2>
                         </div>
@@ -74,14 +75,13 @@
                 </div>
                 <p class="mb-6 main-font">Delivering excellence and trust in every service we provide.</p>
                 <ul class="flex space-x-4">
-                    <li><a href="https://twitter.com/" target="_blank"
-                            class="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-yellow-500 hover:text-white">
+                    <li>
+                        <a href="https://wa.me/9779849728134" target="_blank"
+                            class="w-10 h-10 flex items-center justify-center border bg-green-500 border-gray-400 rounded-full hover:bg-yellow-500 hover:text-white">
                             <i class="fa-brands fa-whatsapp text-2xl"></i>
-                        </a></li>
-                    <li><a href="https://twitter.com/" target="_blank"
-                            class="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-yellow-500 hover:text-white">
-                            <i class="fa-brands fa-viber text-2xl"></i>
-                        </a></li>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
 
@@ -90,15 +90,18 @@
                 <ul class="space-y-2">
                     <li class="flex items-center gap-2 group hover:text-[#EAB308]">
                         <i class="fa-solid fa-circle text-[8px] group-hover:text-[#EAB308]"></i>
-                        <a href="{{ url('registration') }}" class="group-hover:text-[#EAB308]">Registration of Trademark</a>
+                        <a href="{{ url('registration') }}" class="group-hover:text-[#EAB308]">Registration of
+                            Trademark</a>
                     </li>
                     <li class="flex items-center gap-2 group hover:text-[#EAB308]">
                         <i class="fa-solid fa-circle text-[8px] group-hover:text-[#EAB308]"></i>
-                        <a href="{{ url('monitoring') }}" class="group-hover:text-[#EAB308]">Monitoring of Trademark (Watch)</a>
+                        <a href="{{ url('monitoring') }}" class="group-hover:text-[#EAB308]">Monitoring of Trademark
+                            (Watch)</a>
                     </li>
                     <li class="flex items-center gap-2 group hover:text-[#EAB308]">
                         <i class="fa-solid fa-circle text-[8px] group-hover:text-[#EAB308]"></i>
-                        <a href="{{ url('enforcement') }}" class="group-hover:text-[#EAB308]">Enforcement of Trademark</a>
+                        <a href="{{ url('enforcement') }}" class="group-hover:text-[#EAB308]">Enforcement of
+                            Trademark</a>
                     </li>
                     <li class="flex items-center gap-2 group hover:text-[#EAB308]">
                         <i class="fa-solid fa-circle text-[8px] group-hover:text-[#EAB308]"></i>
@@ -143,19 +146,23 @@
                 <ul class="space-y-4">
                     <li class="flex gap-4">
                         <!-- Location Icon -->
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-7 h-7">
-                            <path d="M12 2C8.686 2 6 4.686 6 8c0 5.25 6 12 6 12s6-6.75 6-12c0-3.314-2.686-6-6-6z"></path>
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" viewBox="0 0 24 24" class="w-7 h-7">
+                            <path d="M12 2C8.686 2 6 4.686 6 8c0 5.25 6 12 6 12s6-6.75 6-12c0-3.314-2.686-6-6-6z">
+                            </path>
                             <circle cx="12" cy="8" r="2.5"></circle>
                         </svg>
                         <span class="hover:text-[#EAB308]">
-                            Kathmandu Ward No.32, G.P.O.BOX 20481<br>
+                            Kathmandu Ward No.32,<br>
                             Near Kotadevi Mandir, Kathmandu, Nepal
                         </span>
                     </li>
                     <li class="flex gap-4">
                         <!-- Phone Icon -->
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-5 h-5">
-                            <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" viewBox="0 0 24 24" class="w-5 h-5">
+                            <path
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
                         <div>
                             <a href="tel:+9779849728134" class="hover:text-[#EAB308] block">+977-9849728134</a>
@@ -164,13 +171,18 @@
                     </li>
                     <li class="flex gap-4">
                         <!-- Email Icon -->
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-5 h-5">
-                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" viewBox="0 0 24 24" class="w-5 h-5">
+                            <path
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                         <div>
-                            <a href="mailto:nepaltrademarkattorney@hotmail.com" class="hover:text-[#EAB308] block">nepaltrademarkattorney@hotmail.com</a>
-                            <a href="mailto:info@nepaltrademark.com" class="hover:text-[#EAB308] block">info@nepaltrademark.com</a>
-                            <a href="mailto:tm@nepaltrademark.com" class="hover:text-[#EAB308] block">tm@nepaltrademark.com</a>
+                            <a href="mailto:info@nepaltrademark.com"
+                                class="hover:text-[#EAB308] block font-semibold">info@nepaltrademark.com</a>
+                            <a href="mailto:nepaltrademarkattorney@hotmail.com"
+                                class="hover:text-[#EAB308] block">nepaltrademarkattorney@hotmail.com</a>
+                            <a href="mailto:tm@nepaltrademark.com"
+                                class="hover:text-[#EAB308] block">tm@nepaltrademark.com</a>
                         </div>
                     </li>
                 </ul>
@@ -179,7 +191,8 @@
 
         <div class="mt-10 flex justify-between border-t border-gray-300 pt-6 text-center md:text-left">
             <p>Copyright &copy; 2023 <a href="{{ url('/') }}" target="_blank"
-                    class="text-yellow-500 hover:underline">Nepal Trademark Attorneys Inc.</a> - All Rights Reserved.</p>
+                    class="text-yellow-500 hover:underline">Nepal Trademark Attorneys Inc.</a> - All Rights Reserved.
+            </p>
             <p class="mt-2">
                 <a href="#" class="hover:text-yellow-500">Terms of Use</a> | <a href="#"
                     class="hover:text-yellow-500">Privacy Policy</a>
@@ -187,4 +200,3 @@
         </div>
     </div>
 </footer>
-
