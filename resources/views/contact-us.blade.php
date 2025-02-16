@@ -203,7 +203,7 @@
                             </div>
                             <a class="text-xl text-gray-900 block hover:text-blue-600 transition-colors" href="https://www.google.com/maps/dir//%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A1%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95+%E0%A4%B5%E0%A4%95%E0%A5%80%E0%A4%B2%E0%A4%B9%E0%A4%B0%E0%A5%81+%E0%A4%87%E0%A4%82%E0%A4%95+M8FW%2BXQ4+Surya+Kot+Marg+Kathmandu+44600/@27.6748969,85.3469483,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x39eb19f1a61bab37:0x9ed8dae913f6c9d1"
                                 target="_blank" rel="noopener noreferrer">
-                                Kathmandu Ward No. 30<br>
+                                Kathmandu Ward No. 32<br>
                                 Near Kotadevi Mandir, Kathmandu, Nepal
                             </a>
                         </div>

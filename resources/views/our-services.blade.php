@@ -81,7 +81,7 @@
                 <div class="bg-white shadow-lg rounded-lg p-6 text-center">
                     <div class="flex justify-center mb-4 ">
                         <span class="border-[3px] border-gry-500 rounded-md">
-                            <img src="{{ asset('image/icon-3.png') }}" alt="Trademark Renewal" class="w-12 h-12  m-4">
+                            <img src="{{ asset('image/icon-4.png') }}" alt="Trademark Renewal" class="w-12 h-12  m-4">
                         </span>
                     </div>
                     <h3 class="text-xl font-semibold main-text-color mb-2 main-font">Trademark Renewal</h3>

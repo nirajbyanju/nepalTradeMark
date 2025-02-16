@@ -58,7 +58,7 @@
                     <span class="absolute top-0 right-2 w-6 h-6 bg-[#EAB308] rounded-full"></span>
                     <span class="absolute bottom-0 left-6 w-3 h-3 bg-[#EAB308] rounded-full"></span>
                 </div>
-                <div class="absolute top-6 right-10 text-[100px] leading-none font-bold text-gray-400 opacity-30">01</div>
+                {{-- <div class="absolute top-6 right-10 text-[100px] leading-none font-bold text-gray-400 opacity-30">01</div> --}}
                 <h2 class="text-2xl font-bold main-text-color mt-6 mb-2">Our Mission</h2>
                 <p class="text-gray-400 text-justify"> Our mission is to empower businesses and individuals by providing
                     seamless trademark registration and
@@ -78,7 +78,7 @@
                     <span class="absolute top-0 right-2 w-6 h-6 bg-[#EAB308] rounded-full"></span>
                     <span class="absolute bottom-0 left-6 w-3 h-3 bg-[#EAB308] rounded-full"></span>
                 </div>
-                <div class="absolute top-6 right-10 text-[100px] leading-none font-bold text-gray-400 opacity-30">02</div>
+                {{-- <div class="absolute top-6 right-10 text-[100px] leading-none font-bold text-gray-400 opacity-30">02</div> --}}
                 <h2 class="text-2xl font-bold main-text-color mt-6 mb-2">Our Vision</h2>
                 <p class="text-gray-400 text-justify"> Our vision is to become Nepal’s most trusted partner in intellectual
                     property protection, enabling
@@ -98,7 +98,7 @@
                     <span class="absolute top-0 right-2 w-6 h-6 bg-[#EAB308] rounded-full"></span>
                     <span class="absolute bottom-0 left-6 w-3 h-3 bg-[#EAB308] rounded-full"></span>
                 </div>
-                <div class="absolute top-6 right-10 text-[100px] leading-none font-bold text-gray-400 opacity-30">Goal</div>
+                {{-- <div class="absolute top-6 right-10 text-[100px] leading-none font-bold text-gray-400 opacity-30">Goal</div> --}}
                 <h2 class="text-2xl font-bold main-text-color mt-6 mb-2">Our Goals</h2>
                 <p class="text-gray-400 text-justify">Our goal is to streamline the trademark registration process, educate
                     clients about their intellectual
